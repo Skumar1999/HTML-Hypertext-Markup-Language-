@@ -1,0 +1,24 @@
+/*Calculate the factorial value using recursion.*/
+#include<conio.h>
+#include<stdio.h>
+int factorial(int);
+void main()
+{
+ int a,fact;
+ clrscr();
+ printf("\n");
+ printf("* Calculate Factorial value.\n");
+ printf("* Enter any Value: ");
+ scanf(" %d",&a);
+
+ fact=factorial(a);
+ printf("* Factorial Value: %d");
+ getch();
+}
+    int factorial(int x)
+    {
+       int f;
+       if(x==1)                    return (1);
+       else
+            f=x*factorial(x-1);    return (f);
+     }
