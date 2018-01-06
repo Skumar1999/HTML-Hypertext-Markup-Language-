@@ -5,7 +5,6 @@ void main()
 {
  float p,r,t,si;
  clrscr();
-
  printf("Enter the value of P : ");
  scanf("%f",&p);
  printf("Enter the value of R : ");
@@ -13,7 +12,6 @@ void main()
  printf("Enter the value of T : ");
  scanf("%f",&t);
  si=(p*r*t)/100;
-
  printf("Simpe Interest : %f",si);
  getch();
 }
