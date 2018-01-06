@@ -12,9 +12,8 @@ void main()
  }
  printf("\n");
  for(i=1;i<=5;i++)
-  printf("Dislay marks of %d subject: %d\n",i,marks[i]);
-
-    sum=sum+marks[i];    printf("\n\n Total Marks: %d",sum);
-    per=sum/5;           printf("\n Average Marks: %d",per);
+ printf("Dislay marks of %d subject: %d\n",i,marks[i]);
+ sum=sum+marks[i];    printf("\n\n Total Marks: %d",sum);
+ per=sum/5;           printf("\n Average Marks: %d",per);
  getch();
 }
